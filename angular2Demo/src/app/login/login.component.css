@@ -1,0 +1,138 @@
+.main {
+  height: 100%;
+  background: url('../../assets/img/login_bg.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+.formBox {
+  width: 500px;
+  height: 340px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -170px;
+  margin-left: -250px;
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.5);
+}
+.formBox .input {
+  height: 54px;
+}
+.formBox .input44 {
+  height: 44px;
+}
+.formBox h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #272d36;
+  margin-bottom: 30px;
+}
+ .formBox h4 {
+  font-size: 24px;
+  color: #0193cf;
+  margin-bottom: 40px;
+}
+.formBox .lineHeight30 {
+  line-height: 30px;
+  font-size: 20px;
+}
+.formBox label {
+  color: #333c46;
+}
+.formBox .margin-bottom30 {
+  margin-bottom: 30px;
+}
+.formBox .margin-bottom30 p {
+  font-size: 14px;
+  color: #a6aebd;
+  margin-top: 10px;
+}
+.formBox .margin-bottom50 {
+  margin-bottom: 50px;
+}
+.formBox .margin-bottom66 {
+  margin-bottom: 66px;
+}
+.errInfo h4 {
+  font-size: 36px;
+  text-align: center;
+  color: #333c46;
+  margin-top: 16px;
+}
+.errInfo p {
+  height: 24px;
+  font-size: 24px;
+  text-align: center;
+  color: #0193cf;
+  margin-top: 28px;
+  margin-bottom: 50px;
+}
+.errInfo .btn {
+  margin-bottom: 30px;
+}
+.emailinfo {
+  width: 800px;
+}
+.maininfo {
+  height: 490px;
+  opacity: 0.9;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+.maininfo h4 {
+  font-size: 36px;
+  text-align: center;
+  color: #333c46;
+  margin-top: 16px;
+}
+.maininfo p {
+  height: 24px;
+  font-size: 24px;
+  text-align: center;
+  color: #0193cf;
+  margin-top: 28px;
+  margin-bottom: 50px;
+}
+.maininfo div {
+  width: 550px;
+  margin: 0 auto;
+}
+.maininfo div span {
+  height: 24px;
+  font-size: 24px;
+  color: #272d36;
+}
+.maininfo div ul {
+  margin-top: 20px;
+}
+.maininfo div ul li {
+  font-size: 24px;
+  color: #272d36;
+  line-height: 40px;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background: #fafafa;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  line-height: 60px;
+}
+.footer p {
+  font-size: 12px;
+  color: #333c46;
+}
+input:-webkit-autofill {
+ -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+ -webkit-text-fill-color: #333;
+}
+#coverAlert {
+    margin: 20px auto;
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    background: #e46a68;
+    color: #fff;
+    text-align: center;
+}

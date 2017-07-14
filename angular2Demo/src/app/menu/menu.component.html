@@ -1,0 +1,14 @@
+<ul class="menu">
+  <li *ngFor="let menu of auths; let i=index">
+    <a [routerLink]="menu.url===''? '/dash': menu.url" (click)="toggleMenu(i)">  
+        {{menu.rightName}}
+    </a>
+    <ul *ngIf="menu.sub">
+       <li *ngFor="let ch_menu of menu.sub; let j=index" >
+        <a [routerLink]="ch_menu.url">  
+           {{ch_menu.rightName}}
+         </a>
+      </li> 
+    </ul>
+  </li>
+</ul>
